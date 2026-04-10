@@ -7,7 +7,8 @@ Proiect de dezvoltare a unui ceas inteligent bazat pe microcontrolerul Nordic nR
 ## 1. Diagramă Bloc
 Sistemul este organizat în jurul SoC-ului nRF52840, utilizând comunicație SPI pentru afișaj și I2C pentru senzorul IMU și managementul energiei.
 
-                                    ┌───────────────────┐
+
+                                 ┌───────────────────┐
                                     │    USB-C (J4)     │
                                     └──┬─────────────┬──┘
                                  VBUS  │             │ D+, D-
@@ -68,6 +69,7 @@ Sistemul este organizat în jurul SoC-ului nRF52840, utilizând comunicație SPI
                            └──────────────┘             └─────────────┘
 
 
+
 ---
 
 ## 2. Bill of Materials (BOM)
@@ -113,22 +115,24 @@ Sistemul este organizat în jurul SoC-ului nRF52840, utilizând comunicație SPI
 | **P0.04** | AIN2 (ADC) | Baterie | Citire analogică a tensiunii acumulatorului |
 
 ---
+## 5. Detalii Design PCB (Layout)
 
-## 5. Detalii Design PCB și Randări
+### Specificații Placă
+* **Straturi:** 2 straturi (Top/Bottom).
+* **Dimensiuni trasee:** 0.15mm semnale / 0.3mm alimentare.
+* **Via sizes:** 0.2mm (Drill) / 0.35mm (Diameter).
 
-### Constrângeri de Fabricație (DRC):
-Rutarea a fost realizată pe o placă cu 2 straturi, respectând următoarele limite:
-* **Trace Width:** 0.15mm (Semnal), 0.3mm (Power).
-* **Vias:** Drill 0.2mm, Diameter 0.35mm pentru a permite ieșirea traseelor dintre pinii AQFN (0.5mm pitch).
-* **Antenna Keep-out:** Zona de sub antena RF este liberă de cupru pe toate straturile pentru a asigura o emisie Bluetooth optimă.
+### Decizii de Design și Erori DRC Acceptate
+* **Copper Clearance (Aprobat):** În zona fan-out-ului pentru nRF52840, clearance-ul a fost redus manual sub 0.15mm pentru a permite rutarea corectă a pinilor AQFN cu pitch mic.
+* **Antenna Keep-out:** S-a realizat o decupare a planului de masă sub antena ceramică pentru a maximiza eficiența RF, conform recomandărilor de design Nordic.
+
+---
 
 ### Randări 3D
-![Top Layer](./Images/TopLayer.png)
-![Bottom Layer](./BottomLayer.png)
-![Inner Layer (GND)](./InnerLayer.png)
-![Inner Layer 63 (Signal)](./InnerLayer63Signal.png)
-
-
+### Schematic & PCB
+|PCB Top Layout |
+|:---:|:---:|
+| ![Top Layer](./Images/TopLayer.png) | ![Bottom Layer](./Images/BottomLayer.png) | ![InnerLayer](./Images/InnerLayer.png) | ![InnerLayer](./Images/InnerLayer63Signal.png)
 
 
 ---
