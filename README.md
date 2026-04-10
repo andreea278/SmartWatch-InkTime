@@ -79,7 +79,7 @@ Proiect de dezvoltare a unui ceas inteligent bazat pe microcontrolerul Nordic nR
 
 | Pagina 1 - MCU & Power | Pagina 2 - Display & Senzori |
 |:---:|:---:|
-| ![Schematic 1](./Images/Schematic1.png) | ![Schematic 2](./Images/Schematic2.png) |
+| ![Schematic 1](./Images/Schematic2.png) | ![Schematic 2](./Images/Schematic1.png) |
 
 ---
 ## 6. Structură Repository
