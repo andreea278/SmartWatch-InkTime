@@ -74,9 +74,11 @@ Proiect de dezvoltare a unui ceas inteligent bazat pe microcontrolerul Nordic nR
 | **Inner Layer GND** | **Inner Layer Signal** |
 | ![InnerLayer](./Images/InnerLayer.png) | ![InnerLayer](./Images/InnerLayer63Signal.png) |
 
-
+### Schematic
 ---
-
+| Schematic |
+|:---:|:---:|
+| ![Schematic](./Images/Schematic1.png) | ![Schematic](./Images/Schematic2.png) |
 ## 6. Structură Repository
 * `Hardware/` - Fișierele sursă `.sch` și `.brd` (Autodesk Fusion/Eagle).
 * `Manufacturing/` - Fișiere Gerber, BOM și Pick & Place.
