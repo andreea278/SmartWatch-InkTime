@@ -22,17 +22,7 @@ Proiect de dezvoltare a unui ceas inteligent bazat pe microcontrolerul Nordic nR
 | **Fuel Gauge (U3)**| MAX17048G+T10 | SON-8 | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf) | [C48255](https://jlcpcb.com/parts/componentSearch?searchMetas=MAX17048) |
 | **Display Conn.** | 503480-2400 | FPC-24 | [Datasheet](https://www.molex.com/pdm_docs/sd/5034802400_sd.pdf) | [C73696](https://jlcpcb.com/parts/componentSearch?searchMetas=503480-2400) |
 | **Antenna** | 2450AT18B100E| SMD | [Datasheet](https://www.johansontechnology.com/datasheets/2450AT18B100.pdf) | [C95123](https://jlcpcb.com/parts/componentSearch?searchMetas=2450AT18B100) |
- SW_UP, SW_DN, SW_ENT | EVP-AKE31A | SMD | 3 | Tactile Buttons | - |
-| SJ1 | Solder Jumper | SMD | 1 | Configuration Jumper | - |
-| R1, R2, R5 | 0Ω | 0201 | 3 | Zero-ohm Resistors | - |
-| R3, R4 | 3.3kΩ | 0201 | 2 | I2C Pull-up Resistors | - |
-| R6, R2_EP_DR, R_PWR_EPD | 10kΩ | 0201 | 3 | Pull-up/Pull-down | - |
-| R7, R8, R9 | 10kΩ | 0201 | 3 | Button Pull-down Resistors | - |
-| R1_USB, R2_USB | 5.1kΩ | 0201 | 2 | USB-C CC Pull-down | - |
-| R_TYPE_SEL | 2.2Ω | 0201 | 1 | EPD Type Select | - |
-| R1_EP_DR | 0.47Ω | 0201 | 1 | EPD Current Sense | - |
-| C1, C2, C17, C18 | 12pF | 0201 | 4 | Crystal Load Capacitors | - |
-| C3, C4 | 1pF | 0201 | 2 | RF Matching | - |
+
 
 ---
 
