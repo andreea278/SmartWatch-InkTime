@@ -66,11 +66,13 @@ Proiect de dezvoltare a unui ceas inteligent bazat pe microcontrolerul Nordic nR
 
 ---
 
-### Randări 3D
-### Schematic & PCB
-| Schematic (Full View) | PCB Top Layout |
+
+### PCB
+| Top Layer | Bottom Layer |
 |:---:|:---:|
-| ![Top Layer](./Images/TopLayer.png) | ![Bottom Layer](./Images/BottomLayer.png) | ![InnerLayer](./Images/InnerLayer.png) | ![InnerLayer](./Images/InnerLayer63Signal.png)
+| ![Top Layer](./Images/TopLayer.png) | ![Bottom Layer](./Images/BottomLayer.png) |
+| **Inner Layer GND** | **Inner Layer Signal** |
+| ![InnerLayer](./Images/InnerLayer.png) | ![InnerLayer](./Images/InnerLayer63Signal.png) |
 
 
 ---
