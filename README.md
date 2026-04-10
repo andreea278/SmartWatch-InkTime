@@ -22,7 +22,14 @@ Proiect de dezvoltare a unui ceas inteligent bazat pe microcontrolerul Nordic nR
 | **Fuel Gauge (U3)**| MAX17048G+T10 | SON-8 | [Datasheet](https://datasheets.maximintegrated.com/en/ds/MAX17048-MAX17049.pdf) | [C48255](https://jlcpcb.com/parts/componentSearch?searchMetas=MAX17048) |
 | **Display Conn.** | 503480-2400 | FPC-24 | [Datasheet](https://www.molex.com/pdm_docs/sd/5034802400_sd.pdf) | [C73696](https://jlcpcb.com/parts/componentSearch?searchMetas=503480-2400) |
 | **Antenna** | 2450AT18B100E| SMD | [Datasheet](https://www.johansontechnology.com/datasheets/2450AT18B100.pdf) | [C95123](https://jlcpcb.com/parts/componentSearch?searchMetas=2450AT18B100) |
-
+| Q1 | DMG2305UX-7 | SOT-23 | 1 | P-Ch MOSFET (EPD drive) | [Datasheet](https://www.diodes.com/assets/Datasheets/DMG2305UX.pdf) |
+| Q3 | SI1308EDL-T1-GE3 | SC-70 | 1 | N-Ch MOSFET (EPD drive) | [Datasheet](https://www.vishay.com/docs/68986/si1308edl.pdf) |
+| D2, D4, D5 | MBR0530 | SOD-123 | 3 | Schottky Diode (EPD drive) | - |
+| L1 | 3.9nH | SMD 2012 | 1 | RF Matching Network | - |
+| L2 | 10µH | SMD 2012 | 1 | nRF Power Inductor | - |
+| L3 | 15nH | SMD 2012 | 1 | RF Filter | - |
+| L5 | 68µH | SMD 2012 | 1 | EPD Boost Inductor | - |
+| L7 | FTC252012SR47MBCA | SMD 2012 | 1 | DC/DC Power Inductor (0.47µH) | [JLCPCB](https://jlcpcb.com/partdetail/6763488-FTC252012SR47MBCA/C5832368) 
 
 ---
 
