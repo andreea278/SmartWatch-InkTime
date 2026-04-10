@@ -123,9 +123,13 @@ Rutarea a fost realizată pe o placă cu 2 straturi, respectând următoarele li
 * **Antenna Keep-out:** Zona de sub antena RF este liberă de cupru pe toate straturile pentru a asigura o emisie Bluetooth optimă.
 
 ### Randări 3D
-![Front View](./Images/pcb_top_render.png)
-![Back View](./Images/pcb_bottom_render.png)
-![Mechanical Assembly](./Images/smartwatch_full_render.png)
+![Top Layer](./Images/TopLayer.png)
+![Bottom Layer](./BottomLayer.png)
+![Inner Layer (GND)](./InnerLayer.png)
+![Inner Layer 63 (Signal)](./InnerLayer63Signal.png)
+
+
+
 
 ---
 
