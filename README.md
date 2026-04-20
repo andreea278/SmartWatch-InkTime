@@ -9,7 +9,7 @@ Proiect de dezvoltare a unui ceas inteligent bazat pe microcontrolerul Nordic nR
 ![Block Diagram](./Images/SmartwatchDiagram.png)
 
 ---
-Acest proiect reprezintă o platformă open-hardware de tip smartwatch, proiectată pentru flexibilitate maximă și eficiență energetică ridicată. Construit în jurul microcontrolerului nRF52840 , dispozitivul este complet compatibil cu mediile de dezvoltare C/C++, oferind control total la nivel de regiștri pentru proiecte embedded avansate.
+Acest proiect reprezintă o platformă open-hardware de tip smartwatch, proiectată pentru flexibilitate maximă și eficiență energetică ridicată. Construit în jurul microcontrolerului nRF52840 , dispozitivul oferă control total la nivel de regiștri pentru proiecte embedded avansate.
 
 
 - **[nRF52840](https://www.nordicsemi.com/Products/nRF52840)(Microcontroler):** System on Chip bazat pe ARM Cortex-M4F tactat la 64 MHz. Include suport nativ pentru Bluetooth 5 / BLE și radio 2.4 GHz. Dispune de 1 MB Flash și 256 KB RAM și oferă interfețe versatile: SPI, I2C, UART și GPIO pentru comunicarea cu celelalte module.
@@ -170,7 +170,7 @@ Sistemul utilizează magistrale digitale pentru a minimiza numărul de pini ocup
 ---
 
 ## 6. Structură 
-* `Hardware/` - Fișierele sursă `.sch` și `.brd` (Autodesk Fusion/Eagle).
+* `Hardware/` - Fișierele sursă `.sch` și `.brd` .
 * `Manufacturing/` - Fișiere Gerber, BOM și Pick & Place.
-* `Mechanical/` - Modelul 3D al dispozitivului în format `.f3d` și `.step`.
+* `Mechanical/` - Modelul 3D al dispozitivului în format `.f3d` și `.step` (exploded view).
 * `Images/` - Randări și screenshot-uri ale proiectului.
