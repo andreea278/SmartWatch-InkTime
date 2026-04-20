@@ -143,19 +143,27 @@ Sistemul utilizează magistrale digitale pentru a minimiza numărul de pini ocup
 
 
 ### Design PCB
-| Top Layer | Bottom Layer |
-|:---:|:---:|
-| ![Top Layer](./Images/TopLayer.png) | ![Bottom Layer](./Images/BottomLayer.png) |
-| **Inner Layer GND** | **Inner Layer Signal** |
-| ![InnerLayer](./Images/InnerLayer.png) | ![InnerLayer](./Images/InnerLayer63Signal.png) |
+| **Top Layer ** | **Bottom Layer** | **Silkscreen** |
+| :---: | :---: | :---: |
+| <img src="./Images/TopLayer.png" width="300"> | <img src="./Images/BottomLayer.png" width="300"> | <img src="./Images/Silkscreen.png" width="300"> |
+| **Inner Layer 2 (GND)** | **Inner Layer 3 (Power - C63)** |
+| <img src="./Images/InnerLayer.png" width="300"> | <img src="./Images/InnerLayer63Signal.png" width="300"> |
 
 ### Design Schematic
 ---
 
 | Pagina 1 - MCU & Power | Pagina 2 - Display & Senzori |
 |:---:|:---:|
-| ![Schematic 1](./Images/Schematic2.png) | ![Schematic 2](./Images/Schematic1.png) |
+| ![Schematic 1](./Images/Schematic1.png) width="300" | ![Schematic 2](./Images/Schematic2.png) width="300" |
 
+
+### 3D PCB & Carcasa
+| **Top View** | **Side View** | **SmartWatch Components** |
+| :---: | :---: | :---:|
+| <img src="./Images/TopView.png"  width="300"> | <img src="./Images/SideView.png" width="300"> | <img src="./Images/SmartWatchSideView.png" width="300"> |
+
+| **3D PCB** | 
+| ![Vedere 3D PCB](./Videos/render-3d.gif) | 
 ---
 ## 6. Structură Repository
 * `Hardware/` - Fișierele sursă `.sch` și `.brd` (Autodesk Fusion/Eagle).
